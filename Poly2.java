@@ -1,13 +1,9 @@
 
-class Car {
+abstract class Car {
 
-    public void price() {
-        System.out.println("Price of the car");
-    }
+    public abstract void price();
 
-    public void runs() {
-        System.out.println("How is the ride of the car?");
-    }
+    public abstract void runs();
 }
 
 class Sedan extends Car {
