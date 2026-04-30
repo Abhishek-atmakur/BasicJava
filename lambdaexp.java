@@ -3,6 +3,7 @@
 interface A {
 
     void display();
+
 }
 
 // class B extends A {
