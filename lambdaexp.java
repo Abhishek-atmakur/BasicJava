@@ -1,4 +1,5 @@
 
+@FunctionalInterface
 interface A {
 
     void display();
