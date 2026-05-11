@@ -24,5 +24,13 @@ public class string1 {
         // String str1 = "Abhi";
         // String str2 = "ABHi";// System.out.println(str1.compareTo(str2)); // positive value, because 'b' is greater than 'B'
         // System.out.println(str1.compareTo(str2)); //
+        String str = "Abhishekisagoodboy";
+        int l = str.toLowerCase().substring(6).length();
+        System.out.println(l);
+
+        char[] ch = str.toCharArray();
+        for (char c : ch) {
+            System.out.print(c + " ");
+        }
     }
 }
