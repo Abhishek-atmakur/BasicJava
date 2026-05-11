@@ -4,7 +4,10 @@ import java.util.*;
 public class array1 {
 
     public static void main(String[] args) {
-        int[][] arr = new int[3][4];
+        int[][] arr = new int[3][];
+        arr[0] = new int[4];
+        arr[1] = new int[2];
+        arr[2] = new int[3];
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the marks of 3 classes and 4 students in each class:");
 
@@ -14,7 +17,6 @@ public class array1 {
                 arr[i][j] = sc.nextInt();
             }
         }
-
         System.out.println("The marks of the students are:");
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
@@ -22,6 +24,5 @@ public class array1 {
             }
             System.out.println();
         }
-
     }
 }
